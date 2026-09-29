@@ -1,0 +1,105 @@
+Test Name,Status,Execution Time,Error Message
+TC_14_TestLoginWithMultipleUsers,PASSED,2025-11-19 03:53:21,
+TC_14_TestLoginWithMultipleUsers,PASSED,2025-11-19 03:53:23,
+TC_14_TestLoginWithMultipleUsers,PASSED,2025-11-19 03:53:26,
+TC_14_TestLoginWithMultipleUsers,PASSED,2025-11-19 03:53:28,
+TC_14_TestLoginWithMultipleUsers,PASSED,2025-11-19 03:53:30,
+TC_15_TestInvalidLogin,PASSED,2025-11-19 03:53:32,
+TC_15_TestInvalidLogin,PASSED,2025-11-19 03:53:35,
+TC_15_TestInvalidLogin,PASSED,2025-11-19 03:53:37,
+TC_15_TestInvalidLogin,PASSED,2025-11-19 03:53:39,
+TC_16_TestLogout,PASSED,2025-11-19 03:53:42,
+TC_16_TestLogout,FAILED,2025-11-19 03:53:48,invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=142.0.7444.163)
+Build info: version: '4.36.0'  revision: '6d115cfd87'
+System info: os.name: 'Windows 11'  os.arch: 'amd64'  os.version: '10.0'  java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ce16f2a5a56c755e47a2b3aad32bc12d  findElement {using=id  value=login-button}]
+Capabilities {acceptInsecureCerts: false  browserName: chrome  browserVersion: 142.0.7444.163  chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4...  userDataDir: C:\Users\hooan\AppData\Loca...}  fedcm:accounts: true  goog:chromeOptions: {debuggerAddress: localhost:58101}  goog:processID: 13576  networkConnectionEnabled: false  pageLoadStrategy: normal  platformName: windows  proxy: Proxy()  se:cdp: ws://localhost:58101/devtoo...  se:cdpVersion: 142.0.7444.163  setWindowRect: true  strictFileInteractability: false  timeouts: {implicit: 0  pageLoad: 300000  script: 30000}  unhandledPromptBehavior: dismiss and notify  webauthn:extension:credBlob: true  webauthn:extension:largeBlob: true  webauthn:extension:minPinLength: true  webauthn:extension:prf: true  webauthn:virtualAuthenticators: true}
+Session ID: ce16f2a5a56c755e47a2b3aad32bc12d
+TC_16_TestLogout,FAILED,2025-11-19 03:53:57,Error communicating with the remote browser. It may have died.
+Build info: version: '4.36.0'  revision: '6d115cfd87'
+System info: os.name: 'Windows 11'  os.arch: 'amd64'  os.version: '10.0'  java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d2e2d0d982d6e85c5f0c48028e6898ca  findElement [using  value]]
+Capabilities {acceptInsecureCerts: false  browserName: chrome  browserVersion: 142.0.7444.163  chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4...  userDataDir: C:\Users\hooan\AppData\Loca...}  fedcm:accounts: true  goog:chromeOptions: {debuggerAddress: localhost:57367}  goog:processID: 18388  networkConnectionEnabled: false  pageLoadStrategy: normal  platformName: windows  proxy: Proxy()  se:cdp: ws://localhost:57367/devtoo...  se:cdpVersion: 142.0.7444.163  setWindowRect: true  strictFileInteractability: false  timeouts: {implicit: 0  pageLoad: 300000  script: 30000}  unhandledPromptBehavior: dismiss and notify  webauthn:extension:credBlob: true  webauthn:extension:largeBlob: true  webauthn:extension:minPinLength: true  webauthn:extension:prf: true  webauthn:virtualAuthenticators: true}
+Session ID: d2e2d0d982d6e85c5f0c48028e6898ca
+TC_16_TestLogout,FAILED,2025-11-19 03:54:10,no such element: Unable to locate element: {"method":"css selector" "selector":"#login\-button"}
+  (Session info: chrome=142.0.7444.163)
+For documentation on this error  please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.36.0'  revision: '6d115cfd87'
+System info: os.name: 'Windows 11'  os.arch: 'amd64'  os.version: '10.0'  java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [155971d09b33d87b14a55ada691a05b0  findElement {using=id  value=login-button}]
+Capabilities {acceptInsecureCerts: false  browserName: chrome  browserVersion: 142.0.7444.163  chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4...  userDataDir: C:\Users\hooan\AppData\Loca...}  fedcm:accounts: true  goog:chromeOptions: {debuggerAddress: localhost:59581}  goog:processID: 16120  networkConnectionEnabled: false  pageLoadStrategy: normal  platformName: windows  proxy: Proxy()  se:cdp: ws://localhost:59581/devtoo...  se:cdpVersion: 142.0.7444.163  setWindowRect: true  strictFileInteractability: false  timeouts: {implicit: 0  pageLoad: 300000  script: 30000}  unhandledPromptBehavior: dismiss and notify  webauthn:extension:credBlob: true  webauthn:extension:largeBlob: true  webauthn:extension:minPinLength: true  webauthn:extension:prf: true  webauthn:virtualAuthenticators: true}
+Session ID: 155971d09b33d87b14a55ada691a05b0
+TC_01_VerifyProductCount,PASSED,2025-11-19 03:54:11,
+TC_01_VerifyProductCount,PASSED,2025-11-19 03:54:14,
+TC_01_VerifyProductCount,PASSED,2025-11-19 03:54:16,
+TC_01_VerifyProductCount,PASSED,2025-11-19 03:54:18,
+TC_02_VerifyBackpackProduct,PASSED,2025-11-19 03:54:20,
+TC_02_VerifyBackpackProduct,PASSED,2025-11-19 03:54:21,
+TC_02_VerifyBackpackProduct,PASSED,2025-11-19 03:54:23,
+TC_02_VerifyBackpackProduct,FAILED,2025-11-19 03:54:24,FAILED: Giá sản phẩm không đúng! expected [$29.99] but found [$44]
+TC_08_SortByNameAtoZ,PASSED,2025-11-19 03:54:26,
+TC_08_SortByNameAtoZ,PASSED,2025-11-19 03:54:28,
+TC_08_SortByNameAtoZ,PASSED,2025-11-19 03:54:30,
+TC_08_SortByNameAtoZ,PASSED,2025-11-19 03:54:32,
+TC_09_SortByNameZtoA,PASSED,2025-11-19 03:54:33,
+TC_09_SortByNameZtoA,FAILED,2025-11-19 03:54:35,FAILED: Danh sách không được sắp xếp theo Z-A! expected [true] but found [false]
+TC_09_SortByNameZtoA,FAILED,2025-11-19 03:54:37,unexpected alert open: {Alert text : Sorting is broken! This error has been reported to Backtrace.}
+  (Session info: chrome=142.0.7444.163): Sorting is broken! This error has been reported to Backtrace.
+Build info: version: '4.36.0'  revision: '6d115cfd87'
+System info: os.name: 'Windows 11'  os.arch: 'amd64'  os.version: '10.0'  java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7f5acc97731ac10df36d0cdbf55c5d3  findElements {using=css selector  value=div[data-test='inventory-item-name']}]
+Capabilities {acceptInsecureCerts: false  browserName: chrome  browserVersion: 142.0.7444.163  chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4...  userDataDir: C:\Users\hooan\AppData\Loca...}  fedcm:accounts: true  goog:chromeOptions: {debuggerAddress: localhost:54224}  goog:processID: 4460  networkConnectionEnabled: false  pageLoadStrategy: normal  platformName: windows  proxy: Proxy()  se:cdp: ws://localhost:54224/devtoo...  se:cdpVersion: 142.0.7444.163  setWindowRect: true  strictFileInteractability: false  timeouts: {implicit: 0  pageLoad: 300000  script: 30000}  unhandledPromptBehavior: dismiss and notify  webauthn:extension:credBlob: true  webauthn:extension:largeBlob: true  webauthn:extension:minPinLength: true  webauthn:extension:prf: true  webauthn:virtualAuthenticators: true}
+Session ID: a7f5acc97731ac10df36d0cdbf55c5d3
+TC_09_SortByNameZtoA,PASSED,2025-11-19 03:54:38,
+TC_10_SortByPriceLowToHigh,PASSED,2025-11-19 03:54:40,
+TC_10_SortByPriceLowToHigh,FAILED,2025-11-19 03:54:42,FAILED: Giá không được sắp xếp từ thấp đến cao! expected [true] but found [false]
+TC_10_SortByPriceLowToHigh,FAILED,2025-11-19 03:54:44,unexpected alert open: {Alert text : Sorting is broken! This error has been reported to Backtrace.}
+  (Session info: chrome=142.0.7444.163): Sorting is broken! This error has been reported to Backtrace.
+Build info: version: '4.36.0'  revision: '6d115cfd87'
+System info: os.name: 'Windows 11'  os.arch: 'amd64'  os.version: '10.0'  java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8523c3abc44e1db6c491a3589ccc90b3  findElements {using=css selector  value=div[data-test='inventory-item-price']}]
+Capabilities {acceptInsecureCerts: false  browserName: chrome  browserVersion: 142.0.7444.163  chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4...  userDataDir: C:\Users\hooan\AppData\Loca...}  fedcm:accounts: true  goog:chromeOptions: {debuggerAddress: localhost:55612}  goog:processID: 22068  networkConnectionEnabled: false  pageLoadStrategy: normal  platformName: windows  proxy: Proxy()  se:cdp: ws://localhost:55612/devtoo...  se:cdpVersion: 142.0.7444.163  setWindowRect: true  strictFileInteractability: false  timeouts: {implicit: 0  pageLoad: 300000  script: 30000}  unhandledPromptBehavior: dismiss and notify  webauthn:extension:credBlob: true  webauthn:extension:largeBlob: true  webauthn:extension:minPinLength: true  webauthn:extension:prf: true  webauthn:virtualAuthenticators: true}
+Session ID: 8523c3abc44e1db6c491a3589ccc90b3
+TC_10_SortByPriceLowToHigh,FAILED,2025-11-19 03:54:45,FAILED: Giá không được sắp xếp từ thấp đến cao! expected [true] but found [false]
+TC_11_SortByPriceHighToLow,PASSED,2025-11-19 03:54:47,
+TC_11_SortByPriceHighToLow,FAILED,2025-11-19 03:54:49,FAILED: Giá không được sắp xếp từ cao đến thấp! expected [true] but found [false]
+TC_11_SortByPriceHighToLow,FAILED,2025-11-19 03:54:50,unexpected alert open: {Alert text : Sorting is broken! This error has been reported to Backtrace.}
+  (Session info: chrome=142.0.7444.163): Sorting is broken! This error has been reported to Backtrace.
+Build info: version: '4.36.0'  revision: '6d115cfd87'
+System info: os.name: 'Windows 11'  os.arch: 'amd64'  os.version: '10.0'  java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83587348c6f1d7786cb3009bbd15316b  findElements {using=css selector  value=div[data-test='inventory-item-price']}]
+Capabilities {acceptInsecureCerts: false  browserName: chrome  browserVersion: 142.0.7444.163  chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4...  userDataDir: C:\Users\hooan\AppData\Loca...}  fedcm:accounts: true  goog:chromeOptions: {debuggerAddress: localhost:52762}  goog:processID: 24236  networkConnectionEnabled: false  pageLoadStrategy: normal  platformName: windows  proxy: Proxy()  se:cdp: ws://localhost:52762/devtoo...  se:cdpVersion: 142.0.7444.163  setWindowRect: true  strictFileInteractability: false  timeouts: {implicit: 0  pageLoad: 300000  script: 30000}  unhandledPromptBehavior: dismiss and notify  webauthn:extension:credBlob: true  webauthn:extension:largeBlob: true  webauthn:extension:minPinLength: true  webauthn:extension:prf: true  webauthn:virtualAuthenticators: true}
+Session ID: 83587348c6f1d7786cb3009bbd15316b
+TC_11_SortByPriceHighToLow,FAILED,2025-11-19 03:54:52,FAILED: Giá không được sắp xếp từ cao đến thấp! expected [true] but found [false]
+TC_12_AddSingleProductToCart,FAILED,2025-11-19 03:55:01,Error communicating with the remote browser. It may have died.
+Build info: version: '4.36.0'  revision: '6d115cfd87'
+System info: os.name: 'Windows 11'  os.arch: 'amd64'  os.version: '10.0'  java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3394cec83c944ed943e40452e2532873  findElement [using  value]]
+Capabilities {acceptInsecureCerts: false  browserName: chrome  browserVersion: 142.0.7444.163  chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4...  userDataDir: C:\Users\hooan\AppData\Loca...}  fedcm:accounts: true  goog:chromeOptions: {debuggerAddress: localhost:52055}  goog:processID: 7220  networkConnectionEnabled: false  pageLoadStrategy: normal  platformName: windows  proxy: Proxy()  se:cdp: ws://localhost:52055/devtoo...  se:cdpVersion: 142.0.7444.163  setWindowRect: true  strictFileInteractability: false  timeouts: {implicit: 0  pageLoad: 300000  script: 30000}  unhandledPromptBehavior: dismiss and notify  webauthn:extension:credBlob: true  webauthn:extension:largeBlob: true  webauthn:extension:minPinLength: true  webauthn:extension:prf: true  webauthn:virtualAuthenticators: true}
+Session ID: 3394cec83c944ed943e40452e2532873
+TC_12_AddSingleProductToCart,PASSED,2025-11-19 03:55:13,
+TC_12_AddSingleProductToCart,PASSED,2025-11-19 03:55:27,
+TC_12_AddSingleProductToCart,PASSED,2025-11-19 03:55:39,
+TC_13_AddAllProductsToCart,PASSED,2025-11-19 03:55:51,
+TC_13_AddAllProductsToCart,FAILED,2025-11-19 03:56:02,FAILED: Không add được tất cả sản phẩm vào cart! expected [6] but found [2]
+TC_13_AddAllProductsToCart,FAILED,2025-11-19 03:56:16,FAILED: Không add được tất cả sản phẩm vào cart! expected [6] but found [2]
+TC_13_AddAllProductsToCart,PASSED,2025-11-19 03:56:28,
+testTC02,PASSED,2025-11-19 03:56:30,
+testTC03,PASSED,2025-11-19 03:56:31,
+testTC04,PASSED,2025-11-19 03:56:43,
+testTC05,PASSED,2025-11-19 03:56:46,
+testTC06,FAILED,2025-11-19 03:56:59,Expected condition failed: waiting for url to contain "checkout-step-two.html". Current url: "https://www.saucedemo.com/checkout-step-one.html" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.36.0'  revision: '6d115cfd87'
+System info: os.name: 'Windows 11'  os.arch: 'amd64'  os.version: '10.0'  java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false  browserName: chrome  browserVersion: 142.0.7444.163  chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4...  userDataDir: C:\Users\hooan\AppData\Loca...}  fedcm:accounts: true  goog:chromeOptions: {debuggerAddress: localhost:61881}  goog:processID: 12736  networkConnectionEnabled: false  pageLoadStrategy: normal  platformName: windows  proxy: Proxy()  se:cdp: ws://localhost:61881/devtoo...  se:cdpVersion: 142.0.7444.163  setWindowRect: true  strictFileInteractability: false  timeouts: {implicit: 0  pageLoad: 300000  script: 30000}  unhandledPromptBehavior: dismiss and notify  webauthn:extension:credBlob: true  webauthn:extension:largeBlob: true  webauthn:extension:minPinLength: true  webauthn:extension:prf: true  webauthn:virtualAuthenticators: true}
+Session ID: 68ebb0c6957ab821bb2d6e4054a9eff6

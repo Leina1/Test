@@ -1,0 +1,4 @@
+com\mycompany\helloselenium\HelloSelenium.class
+com\mycompany\helloselenium\Xpath.class
+com\mycompany\helloselenium\Locator.class
+com\mycompany\helloselenium\Webform.class
