@@ -1,0 +1,284 @@
+{
+  "info": {
+    "_postman_id": "b27b7f4f-4e29-416c-87ff-55d6a040bf4e",
+    "name": "First project",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53926533",
+    "_collection_link": "https://go.postman.co/collection/53926533-b27b7f4f-4e29-416c-87ff-55d6a040bf4e?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Get All Collection",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.restful-api.dev/collections",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restful-api",
+            "dev"
+          ],
+          "path": [
+            "collections"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create Object",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "let jsondata = pm.response.json();\r",
+              "\r",
+              "pm.collectionVariables.set(\"ObjectID\", jsondata.id);"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Apple MacBook Pro 20\",\r\n  \"data\": {\r\n    \"year\": 2025,\r\n    \"price\": 5009.99,\r\n    \"CPU model\": \"Intel Core i10\",\r\n    \"Hard disk size\": \"2 TB\"\r\n  }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api.restful-api.dev/collections/ShopABC/objects",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restful-api",
+            "dev"
+          ],
+          "path": [
+            "collections",
+            "ShopABC",
+            "objects"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Single Object",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.restful-api.dev/collections/ShopABC/objects/{{ObjectID}}",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restful-api",
+            "dev"
+          ],
+          "path": [
+            "collections",
+            "ShopABC",
+            "objects",
+            "{{ObjectID}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Object",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.restful-api.dev/collections/ShopABC/objects",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restful-api",
+            "dev"
+          ],
+          "path": [
+            "collections",
+            "ShopABC",
+            "objects"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Update Object",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Apple MacBook Pro 86\",\r\n  \"data\": {\r\n    \"year\": 2019,\r\n    \"price\": 2049.99,\r\n    \"CPU model\": \"Intel Core i9\",\r\n    \"Hard disk size\": \"1 TB\",\r\n    \"color\": \"silver\"\r\n  }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api.restful-api.dev/collections/ShopABC/objects/{{ObjectID}}",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restful-api",
+            "dev"
+          ],
+          "path": [
+            "collections",
+            "ShopABC",
+            "objects",
+            "{{ObjectID}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Partially Update",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Apple MacBook Pro 16\"\r\n\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api.restful-api.dev/collections/ShopABC/objects/{{ObjectID}}",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restful-api",
+            "dev"
+          ],
+          "path": [
+            "collections",
+            "ShopABC",
+            "objects",
+            "{{ObjectID}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete Object",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text",
+            "disabled": true
+          }
+        ],
+        "url": {
+          "raw": "https://api.restful-api.dev/collections/ShopABC/objects/{{ObjectID}}",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restful-api",
+            "dev"
+          ],
+          "path": [
+            "collections",
+            "ShopABC",
+            "objects",
+            "{{ObjectID}}"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      {
+        "key": "value",
+        "value": "{{api_key}}",
+        "type": "string"
+      },
+      {
+        "key": "key",
+        "value": "x-api-key",
+        "type": "string"
+      }
+    ]
+  },
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          "pm.test(\"Request has responsible response time\", function () {\r",
+          "    pm.expect(pm.response.responseTime).to.be.below(1000);\r",
+          "});\r",
+          "pm.test(\"Status code is 200\", function () {\r",
+          "    pm.response.to.have.status(200);\r",
+          "});"
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "ObjectID",
+      "value": ""
+    }
+  ]
+}
